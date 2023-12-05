@@ -19,7 +19,7 @@ public class QuizGame {
 		
 		// options for answer
 		String[] options = {
-				    "A. Akpan Isemin   B. Obong Attah   C. Udom Emmanuel   D. Umo Eno",
+				    "A. Akpan Isemin   B. Udom Emmanuel    C. Obong Attah   D. Umo Eno",
 	                "A. Elon Musk    B. James Gosling    C. James Bond D. Samuel Peter",
 	                "A. Black B. White   C. Green  D. Indigo",
 	                "A. Cat  B. Blue Whale  C. Lion   D. Elephant",
@@ -27,7 +27,7 @@ public class QuizGame {
 		};
 		
 		// Display and process each question
-		char[] correctAnswers = {'B', 'B', 'B', 'B', 'A'};
+		char[] correctAnswers = {'C', 'B', 'B', 'B', 'A'};
 		int totalQuestions = question.length;
 		int correctResponses = 0;
 		
